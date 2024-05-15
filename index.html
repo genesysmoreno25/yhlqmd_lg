@@ -14,17 +14,20 @@
     <meta name="description"
         content="instalacion y venta de camaras de seguridad para casas y apartamentos para mayor seguridad y proteccion para su hogara nos encotramos en valencia y caracas para mayor confianza a su casa u apartamento">
     <meta name="author" content="Genesys Moreno">
+    <meta property="og:title" content="IONS" />
+    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="https://example.com/ogp.jpg" />
 
-
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
+    <header class="navbar"> 
+         <nav class="navbar__nav">
             <img src="" alt="">
 
-            <ul>
+            <ul class="navbar__nav__list">
                 <li>inicio</li>
                 <li>servicios</li>
                 <li>sobre nosotros</li>
@@ -36,8 +39,8 @@
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="jumbotron">
+            <div class="jumbotron__nav">
                 <h1>vive con la seguridad absoluta de que tu hogar o negocio , siempre protegidos gracias a nuestras
                     camaras de seguridad</h1>
                 <p>tu tranquilida , nuestra seguridad</p>
@@ -90,6 +93,66 @@
 
 
         </section>
+
+        <section>
+            <form action="/">
+                <input type="text" name="miTexto">
+            </form>
+
+            <form action="/" method="get">
+                <input type="text" name="miTexto">
+                <input type="number" name="miNumero">
+                <input type="date" name="miFecha">
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <form action="/" method="get">
+
+                <!-- formulario metodo get por la url -->
+                <label for="nombre">
+                    nombre
+                    <input type="text" name="nombre" id="nombre" required>
+                </label>
+
+                <label for="email">
+                    correo
+                    <input type="email" name="email" id="email" required>
+                </label>
+
+                <label for="pass">
+                    contraseña
+                    <input type="password" name="pass" id="pass" required>
+                </label>
+
+                <label for="nacimiento">
+                    fecha de nacimiento
+                    <input type="date" name="nacimiento" id="nacimiento" required>
+                </label>
+
+                <label for="telefono">
+                    telefono
+                    <input type="tel" name="telefono" id="telefono" required>
+                </label>
+
+                <label for="condiciones">
+                    aceptas todos los terminos y condiciones
+                    <input type="checkbox" name="condiciones" id="condiciones" required>
+                </label>
+
+
+
+
+            </form>
+
+            <form action="/" method="get">
+                <button type="submit">Iniciar Sesion</button>
+            </form>
+
+
+
+        </section>
+
     </main>
 
 
