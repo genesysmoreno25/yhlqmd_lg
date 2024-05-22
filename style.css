@@ -32,14 +32,43 @@ p{font-size: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #1A735A
+    
 }
 
 .navbar__nav__list{
 display: flex;
 gap: 15px;
+;
 }
 
 
-jumbotron{
+.jumbotron{
     justify-content: center;
+    background-image: url("/essets/WhatsApp\ Image\ 2024-05-15\ at\ 1.51.28\ PM.jpeg");
+    padding: 150px 60px;
+    background-size: cover;
+
 }
+
+.jumbotron__container{
+    background-color: #ffffffcb;
+    padding: 53px 90px;
+}
+
+.porqueelegirnos{
+    justify-content: right;
+    padding: 52px 60px;
+    display: flex;
+}
+
+.tarjetas{
+    display: flex;
+    padding top: 5%;
+    align-items: center;
+}
+
+.MEJORESCAMARAS{
+    display: flex;
+}
+
