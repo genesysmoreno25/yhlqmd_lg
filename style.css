@@ -93,3 +93,42 @@ p {
 .MEJORESCAMARAS__tarjeta > div > img {
     height: 32px;
 }
+
+.barrabaja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A735A;
+
+
+}
+
+.barrabaja 
+
+ img {
+    width: 32px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.MEJORESCAMARAS {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+}
+
+.MEJORESCAMARAS__tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #1c1c1c94; 
+}
+
+.textofuera {
+    text-align: center;
+    background-color: #1A735A;
+    color: #ffffff;
+    padding: 20px;
+}
