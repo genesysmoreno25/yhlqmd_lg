@@ -1,1 +1,95 @@
+* {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+    list-style: none;
+    box-sizing: border-box;
+
+    padding: unset;
+    margin: unset;
+
+    outline: unset;
+
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.navbar__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1A735A
+}
+
+.navbar__nav__list {
+    display: flex;
+    gap: 15px;
+    ;
+}
+
+
+.jumbotron {
+    justify-content: center;
+    background-image: url("/essets/WhatsApp\ Image\ 2024-05-15\ at\ 1.51.28\ PM.jpeg");
+    padding: 150px 60px;
+    background-size: cover;
+
+}
+
+.jumbotron__container {
+    background-color: #ffffffcb;
+    padding: 53px 90px;
+}
+
+.porqueelegirnos {
+    justify-content: right;
+    padding: 52px 60px;
+    display: flex;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tarjetas__tarjeta {
+    text-align: center;
+    padding: 20px;
+}
+
+.MEJORESCAMARAS {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.MEJORESCAMARAS__tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MEJORESCAMARAS__tarjeta > img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+}
+
+.MEJORESCAMARAS__tarjeta > div > img {
+    height: 32px;
+}
